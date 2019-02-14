@@ -1,0 +1,40 @@
+.viewCenter
+{
+  text-align: center;
+}
+
+.reportFooter
+{
+  background-color: #fff;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  /* position: fixed; */
+  bottom:0;
+  width:100%;
+}
+
+#logo
+{
+  height:60px;
+}
+
+@media print
+{
+  #printArea
+  {
+    margin-top:0;
+    display:block;
+    height: auto;
+  }
+
+  @page
+  {
+    size: 8.5in 11in;
+    margin: 25mm 25mm 25mm 25mm !important;
+  }
+
+  .progress-bar
+  {
+    color: white;
+  }
+}
